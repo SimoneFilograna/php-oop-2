@@ -6,7 +6,7 @@
 
     $cane1 = new Cane();
 
-    $gioco1 = new Giochi("Pupazzo di gomma", $cane1->img, "panico",32);
+    $gioco1 = new Giochi("Pupazzo di gomma", $cane1->getImg(), "panico",32);
 
     var_dump($gioco1)
     
