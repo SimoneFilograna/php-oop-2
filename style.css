@@ -3,3 +3,14 @@
     aspect-ratio: 1/1;
 }
 
+body{
+    background-image: url(./assets/bg-body.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.card{
+    box-shadow: 10px 5px 20px rgba(12, 1, 172, 0.295);
+    border-color: transparent;
+}
