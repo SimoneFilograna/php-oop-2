@@ -4,11 +4,33 @@
     require_once __DIR__."/models/Cucce.php";
     require_once __DIR__."/models/Cane.php";
 
-    $cane1 = new Cane();
+    $cane = new Cane();
+    $gatto = new Gatto();
 
-    $gioco1 = new Giochi("Pupazzo di gomma", $cane1->getImg(), "panico",32);
+    $gioco1 = new Giochi(
+        _nome: "Dog Activity Chess", 
+        _categoria: $cane->getImg(), 
+        _img: "https://arcaplanet.vtexassets.com/arquivos/ids/265064/gioco-cane-interattivo.jpg?v=1780618370",
+        _prezzo: 32);
 
-    var_dump($gioco1)
+    $gioco2 = new Giochi(
+        _nome: "Dog Activity Mini Solitaire", 
+        _categoria: $cane->getImg(), 
+        _img: "https://arcaplanet.vtexassets.com/arquivos/ids/265073/giochi-per-cani-intelligenza.jpg?v=1779668288",
+        _prezzo: 25);
+
+    $gioco3 = new Giochi(
+        _nome: "Yes! Gatto Pallina Peluche Rosa", 
+        _categoria: $gatto->getImg(), 
+        _img: "https://arcaplanet.vtexassets.com/arquivos/ids/227172/yes-pallina-peluche-rosa-con-coda-cm-4-5x12.jpg?v=1781482722",
+        _prezzo: 10);
+
+    
+
+    
+
+
+    
     
 ?>
 
