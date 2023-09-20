@@ -7,7 +7,7 @@
         private $seriale;
         protected $categoria;
         
-        public function __construct(string $_nome,int $_seriale, Categoria $_categoria)
+        public function __construct(string $_nome,int $_seriale,string $_categoria)
         {
             $this->nome = $_nome;
             $this->seriale = $_seriale;
@@ -44,7 +44,7 @@
                 return $this->seriale;
         }
 
-        
+
         /**
          * Get the value of categoria
          */ 

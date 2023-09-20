@@ -11,10 +11,12 @@
         protected $prezzo;
 
 
-        public function __construct (string $_img, int $_prezzo)
+        public function __construct (string $_nome, string $_categoria, string $_img, int $_prezzo)
         {
-            $this->img = $_img;
-            $this->prezzo = $_prezzo;
+                $this->nome = $_nome;
+                $this->categoria = $_categoria;
+                $this->img = $_img;
+                $this->prezzo = $_prezzo;
         }
 
 

@@ -1,5 +1,15 @@
 <?php
+    require_once __DIR__."/models/Cibo.php";
+    require_once __DIR__."/models/Giochi.php";
+    require_once __DIR__."/models/Cucce.php";
+    require_once __DIR__."/models/Cane.php";
 
+    $cane1 = new Cane();
+
+    $gioco1 = new Giochi("Pupazzo di gomma", $cane1->img, "panico",32);
+
+    var_dump($gioco1)
+    
 ?>
 
 <!DOCTYPE html>
