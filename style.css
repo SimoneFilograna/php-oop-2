@@ -1,9 +1,13 @@
-
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik', sans-serif;
+}
 
 .card-img-top{
     width: 100%55;
     object-fit: contain;
     aspect-ratio: 1/1;
+    border-color: rgb(253, 145, 91);
 }
 
 body{
@@ -14,7 +18,7 @@ body{
 }
 
 .card{
-    box-shadow: 10px 5px 20px rgba(172, 132, 1, 0.295);
+    box-shadow: 10px 5px 20px rgba(172, 98, 1, 0.295);
     border-color: transparent;
     background-color: rgb(253, 145, 91);
 }
