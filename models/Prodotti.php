@@ -9,10 +9,9 @@
         
         public function __construct(string $_nome,int $_seriale,string $_categoria)
         {
-            $this->nome = $_nome;
-            $this->seriale = $_seriale;
-            $this->categoria = $_categoria;
-
+                $this->setNome($_nome);
+                $this->seriale = $_seriale;
+                $this->setCategoria($_categoria);
         }
 
         /**
@@ -30,9 +29,12 @@
          */ 
         public function setNome($nome)
         {
-                $this->nome = $nome;
-
-                return $this;
+                if(is_numeric($nome)){
+                        throw new Exception("La ricerca non può essere un numero");                       
+                } else {
+                        $this->nome = $nome;                       
+                        return $this;                             
+                }
         }
 
 
