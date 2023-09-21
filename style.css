@@ -1,3 +1,5 @@
+
+
 .card-img-top{
     object-fit: contain;
     aspect-ratio: 1/1;
@@ -14,3 +16,4 @@ body{
     box-shadow: 10px 5px 20px rgba(12, 1, 172, 0.295);
     border-color: transparent;
 }
+
