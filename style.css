@@ -1,19 +1,21 @@
 
 
 .card-img-top{
+    width: 100%55;
     object-fit: contain;
     aspect-ratio: 1/1;
 }
 
 body{
-    background-image: url(./assets/bg-body.png);
+    background-image: url(./assets/bg-23.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 .card{
-    box-shadow: 10px 5px 20px rgba(12, 1, 172, 0.295);
+    box-shadow: 10px 5px 20px rgba(172, 132, 1, 0.295);
     border-color: transparent;
+    background-color: rgb(253, 145, 91);
 }
 

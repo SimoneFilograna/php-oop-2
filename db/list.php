@@ -43,9 +43,9 @@
         _prezzo: 20),
 
     new Cibo(
-        _nome: "Natural Trainer Gatto Sterilised Salmone", 
+        _nome: "Natural Trainer Gatto Adult Tonno", 
         _categoria: $gatto->getImg(), 
-        _img: "https://arcaplanet.vtexassets.com/arquivos/ids/248329/trainer-natural-gatto-sterilized-salmone.jpg?v=1781629878",
+        _img: "https://arcaplanet.vtexassets.com/arquivos/ids/263992/8059149247625_124028_AFF_TRA33_21_Mainstream_Adult_Tuna_300g_AAFF_3D.jpg?v=1781710238",
         _prezzo: 10),
     
     new Cibo(
