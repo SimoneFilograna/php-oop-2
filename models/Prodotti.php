@@ -1,10 +1,11 @@
 <?php
     require_once __DIR__."/Categoria.php";
+    require_once __DIR__."/../traits/NecessaryData.php";
 
     class Prodotti {
+        use Necessarydata;
         protected $nome;
         protected $casa_produzione;
-        private $seriale;
         protected $categoria;
         
         public function __construct(string $_nome,int $_seriale,string $_categoria)
