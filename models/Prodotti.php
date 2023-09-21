@@ -30,13 +30,18 @@
          */ 
         public function setNome($nome)
         {
-                if(is_numeric($nome)){
-                        throw new Exception("La ricerca non può essere un numero");                       
-                } else {
-                        $this->nome = $nome;                       
-                        return $this;                             
+                try{
+                        if(is_numeric($nome)){
+                                throw new Exception("La ricerca non può essere un numero");                       
+                        } else {
+                                $this->nome = $nome;                       
+                                return $this;                             
+                        }
+                } catch (Exception $error){
+                        echo "<div class='alert alert-danger text-center fs-4'>". $error->getMessage(). "</div>";
                 }
         }
+
 
 
         /**

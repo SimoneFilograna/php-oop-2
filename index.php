@@ -9,7 +9,7 @@
     require_once __DIR__ . "/db/list.php";
 
     // $cane23 = new Cane();
-    // $cane5 = new Giochi("paura", $cane->getImg(), "immagine figa", 23);
+    // $cane5 = new Giochi("23", $cane->getImg(), "immagine figa", 23);
 
     // var_dump($cane5)
 ?>
