@@ -17,7 +17,7 @@
                 $this->setCategoria($_categoria);
                 $this->setImg($_img);
                 $this->setPrezzo($_prezzo);
-                $this->taglia = $_taglia;
+                $this->setTaglia($_taglia);
         }
 
 
