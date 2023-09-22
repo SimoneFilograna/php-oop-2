@@ -17,9 +17,17 @@
          */ 
         public function setTaglia($taglia)
         {
-                $this->taglia = $taglia;
 
-                return $this;
+            try{
+                if($taglia !== "xl" && $taglia !== "l" && $taglia !== "m" && $taglia !== "s"){
+                        throw new Exception("La taglia può esser scelta solo tra 's', 'm', 'l', 'xl' ");                       
+                } else {
+                        $this->taglia = $taglia;                       
+                        return $this;                             
+                }
+            } catch (Exception $error){
+                echo "<div class='alert alert-danger text-center fs-4'>". $error->getMessage(). "</div>";
+            }
         }
     }
 ?>
