@@ -8,12 +8,13 @@
         protected $img;
         protected $prezzo;
 
-        public function __construct (string $_nome, string $_categoria, string $_img, int $_prezzo)
+        public function __construct (string $_nome, string $_categoria, string $_img, int $_prezzo, string $_taglia)
         {
             $this->setNome($_nome);
             $this->setCategoria($_categoria);
             $this->setImg($_img);
             $this->setPrezzo($_prezzo);
+            $this->taglia = $_taglia;
         }
 
 

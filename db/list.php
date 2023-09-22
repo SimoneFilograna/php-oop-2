@@ -7,7 +7,7 @@
     require_once __DIR__ . "/../models/Cane.php";
     require_once __DIR__ . "/../models/Gatto.php";
     require_once __DIR__ . "/../db/list.php";
-    require_once __DIR__ . "/../traits/NecessaryData.php";
+    require_once __DIR__ . "/../traits/OtherData.php";
     
     $cane = new Cane();
     $gatto = new Gatto();
@@ -18,37 +18,43 @@
         _nome: "Dog Activity Chess", 
         _categoria: $cane->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/265064/gioco-cane-interattivo.jpg?v=1780618370",
-        _prezzo: 32),
+        _prezzo: 32,
+        _taglia: "l"),
 
     new Giochi(
         _nome: "Dog Activity Mini Solitaire", 
         _categoria: $cane->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/265073/giochi-per-cani-intelligenza.jpg?v=1779668288",
-        _prezzo: 25),
+        _prezzo: 25,
+        _taglia: "m"),
 
     new Giochi(
         _nome: "Yes! Gatto Pallina Peluche Rosa", 
         _categoria: $gatto->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/227172/yes-pallina-peluche-rosa-con-coda-cm-4-5x12.jpg?v=1781482722",
-        _prezzo: 10),
+        _prezzo: 10,
+        _taglia: "m"),
 
     new Cucce(
         _nome: "Cuccia Rettangolare Zig Zag", 
         _categoria: $cane->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/273257/LUNA-TEO-CUCCIA-RETT.-CM.-60-ZIG-ZAG.jpg?v=1781603512",
-        _prezzo: 40),
+        _prezzo: 40,
+        _taglia: "xl"),
 
     new Cucce(
         _nome: "Cuccetta di Natale Elf Hat", 
         _categoria: $gatto->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/276486/croci-cuccetta-di-natale-per-cane-elf-hat.jpg?v=1779546400",
-        _prezzo: 50),
+        _prezzo: 50,
+        _taglia: "l"),
 
     new Cucce(
         _nome: "Cuccia Igloo Rosa", 
         _categoria: $gatto->getImg(), 
         _img: "https://arcaplanet.vtexassets.com/arquivos/ids/268671/zolux-cuccia-igloo-rosa.jpg?v=1779754884",
-        _prezzo: 20),
+        _prezzo: 20,
+        _taglia: "xl"),
 
     new Cibo(
         _nome: "Natural Trainer Gatto Adult Tonno", 
