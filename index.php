@@ -10,9 +10,9 @@
     require_once __DIR__ . "/traits/OtherData.php";
 
     // $cane23 = new Cane();
-    $cane5 = new Giochi("ciao", $cane->getImg(), "immagine figa", 23, "xl");
+    // $cane5 = new Giochi("ciao", $cane->getImg(), "immagine figa", 23, "xl");
 
-    var_dump($cane5)
+    // var_dump($cane5)
 ?>
 
 <!DOCTYPE html>
