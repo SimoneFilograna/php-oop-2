@@ -7,6 +7,7 @@
     require_once __DIR__ . "/models/Cane.php";
     require_once __DIR__ . "/models/Gatto.php";
     require_once __DIR__ . "/db/list.php";
+    require_once __DIR__ . "/traits/NecessaryData.php";
 
     // $cane23 = new Cane();
     // $cane5 = new Giochi("23", $cane->getImg(), "immagine figa", 23);
