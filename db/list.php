@@ -1,13 +1,13 @@
 <?php
-    require_once __DIR__ . "/models/Prodotti.php";
-    require_once __DIR__ . "/models/Categoria.php";
-    require_once __DIR__ . "/models/Cibo.php";
-    require_once __DIR__ . "/models/Giochi.php";
-    require_once __DIR__ . "/models/Cucce.php";
-    require_once __DIR__ . "/models/Cane.php";
-    require_once __DIR__ . "/models/Gatto.php";
-    require_once __DIR__ . "/db/list.php";
-    require_once __DIR__ . "/traits/NecessaryData.php";
+    require_once __DIR__ . "/../models/Prodotti.php";
+    require_once __DIR__ . "/../models/Categoria.php";
+    require_once __DIR__ . "/../models/Cibo.php";
+    require_once __DIR__ . "/../models/Giochi.php";
+    require_once __DIR__ . "/../models/Cucce.php";
+    require_once __DIR__ . "/../models/Cane.php";
+    require_once __DIR__ . "/../models/Gatto.php";
+    require_once __DIR__ . "/../db/list.php";
+    require_once __DIR__ . "/../traits/NecessaryData.php";
     
     $cane = new Cane();
     $gatto = new Gatto();
